@@ -3,6 +3,9 @@
 # Install xcode command line tools.
 . ./install-xcode-select.sh
 
+# Wait for the xcode command line tools to finish installing...
+read -p "Press [Enter] key to continue, once the xcode tools have been installed."
+
 # Install Homebrew and Homebrew Cask.
 . ./install-homebrew.sh
 . ./install-homebrew-cask.sh
