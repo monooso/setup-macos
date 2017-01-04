@@ -1,5 +1,8 @@
 #!/usr/bin/env
 
+# Install xcode command line tools.
+. ./install-xcode-select.sh
+
 # Install Homebrew and Homebrew Cask.
 . ./install-homebrew.sh
 . ./install-homebrew-cask.sh
