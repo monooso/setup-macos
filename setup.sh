@@ -17,4 +17,5 @@ read -p "Press [Enter] key to continue, once the xcode tools have been installed
 # Configure.
 . ./configure-macos.sh
 . ./configure-shell.sh
+. ./configure-docker.sh
 . ./setup-dotfiles.sh
