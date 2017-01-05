@@ -9,7 +9,6 @@ brew cask install appcleaner
 brew cask install clamxav
 brew cask install daisydisk
 brew cask install dash
-brew cask install divvy
 brew cask install docker
 brew cask install dropbox
 brew cask install evernote
