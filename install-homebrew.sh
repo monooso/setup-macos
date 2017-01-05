@@ -1,6 +1,5 @@
 #!/usr/bin/env
 
-# Install Homebrew.
 echo '----------------------'
 echo 'Installing Homebrew...'
 echo '----------------------'
