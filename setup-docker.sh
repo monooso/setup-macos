@@ -22,5 +22,14 @@ brew install dinghy
 echo '- Cleaning up...'
 brew cleanup -s
 
+echo '- Adding docker.local to /etc/hosts'
+if grep 'docker.local' /etc/hosts; then
+  echo '  Entry already exists.'
+else
+  echo '' >> /etc/hosts
+  echo '172.16.134.129 docker.local' >> /etc/hosts
+  echo '  Added.'
+fi
+
 echo '- All done.'
 echo '--------------------'
