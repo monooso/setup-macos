@@ -7,9 +7,7 @@ brew cask install 1password
 brew cask install alfred
 brew cask install appcleaner
 brew cask install clamxav
-brew cask install daisydisk
 brew cask install dash
-brew cask install docker
 brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
@@ -18,7 +16,6 @@ brew cask install google-drive
 brew cask install harvest
 brew cask install iterm2
 brew cask install kaleidoscope
-brew cask install kitematic
 brew cask install omnifocus
 brew cask install paw
 brew cask install phpstorm
