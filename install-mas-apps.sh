@@ -13,8 +13,17 @@ mas install 411643860
 echo '- Installing Divvy...'
 mas install 413857545
 
+echo '- Installing Eon...'
+mas install 413744108
+
 echo '- Installing iA Writer...'
 mas install 775737590
+
+echo '- Installing Kiwi...'
+mas install 986304488
+
+echo '- Installing MeisterTask...'
+mas install 1051767777
 
 echo '- Installing Patterns...'
 mas install 429449079
