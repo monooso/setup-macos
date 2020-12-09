@@ -2,4 +2,5 @@
 
 echo ''
 echo '⚡️ Adding Homebrew Taps'
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew tap mongodb/brew
+brew tap homebrew/cask-fonts
