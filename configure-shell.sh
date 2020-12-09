@@ -1,6 +1,5 @@
 #!/usr/bin/env
 
-echo '--------------------'
-echo 'Configuring shell...'
-echo '--------------------'
+echo ''
+echo '⚡️ Configuring the shell'
 chsh -s /bin/zsh
