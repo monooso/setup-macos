@@ -4,7 +4,7 @@ echo ''
 echo '⚡️ Installing applications'
 
 ## Install casks
-brew cask install \
+brew install --cask \
   1password \
   alfred \
   anki \
