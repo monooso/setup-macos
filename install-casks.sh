@@ -30,7 +30,7 @@ brew install --cask \
   slack \
   spotify \
   tableplus \
-  toggl \
+  toggl-track \
   visual-studio-code \
   zoomus
 
