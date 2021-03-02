@@ -3,7 +3,7 @@
 echo ''
 echo '⚡️ Configuring macOS'
 
-## Disable press-and-hold for keys in favor of key repeat.
+## Set press and hold to repeat a key, rather than displaying the accent-picker.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 ## Use AirDrop over every interface.
@@ -31,9 +31,8 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 ## Style the Dock.
 defaults write com.apple.dock orientation -string left
-defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock magnification -bool false
 defaults write com.apple.dock static-only -bool true
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock mineffect -string scale
 defaults write com.apple.dock tilesize -int 16
-defaults write com.apple.dock largesize -int 24
