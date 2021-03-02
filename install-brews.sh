@@ -9,6 +9,7 @@ brew install \
   asdf \
   composer \
   elixir \
+  espanso \
   gpg \
   neovim \
   php \
