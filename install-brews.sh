@@ -16,6 +16,7 @@ brew install \
   ripgrep \
   stow \
   tig \
+  tree \
   wget
 
 ## Install databases
