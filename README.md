@@ -13,15 +13,11 @@ bash ./setup.sh
 The scripts in this repository are primarily concerned with installing tools
 and applications, and performing basic configuration.
 
-More advanced tweaking and customisation falls to [the dotfiles][dotfiles].
+More advanced tweaking and customisation is handled by separate dotfiles.
 
-[dotfiles]: https://github.com/monooso/dotfiles
+The scripts perform the following actions:
 
-With this in mind, the scripts perform the following actions:
-
-1. Install Homebrew and Homebrew Cask, for package management.
-2. Install some command-line tools, using Homebrew.
-3. Install some applications, using Homebrew Cask.
-4. Set the current user's shell to ZSH.
-5. Set some sensible macOS defaults.
-6. Clone [the dotfiles repository][dotfiles], and run the bootstrap script.
+1. Install package managers.
+2. Install command-line tools, applications, and fonts.
+3. Set the current user's shell to ZSH.
+4. Set some sensible macOS defaults.

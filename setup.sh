@@ -6,20 +6,17 @@
 # Wait for the xcode command line tools to finish installing...
 read -p "Press [Enter] key to continue, once the xcode tools have been installed."
 
-# Install Homebrew, Homebrew Cask, and MAS-CLI
+# Install Homebrew and add taps
 . ./install-homebrew.sh
-. ./install-homebrew-cask.sh
-. ./install-mas.sh
+. ./install-homebrew-taps.sh
 
-# Install tools and applications.
+# Install command-line tools, applications, and fonts
 . ./install-brews.sh
 . ./install-casks.sh
-. ./install-mas-apps.sh
-
-# Setup Docker.
-. ./setup-docker.sh
+. ./install-fonts.sh
+. ./install-composer-packages.sh
 
 # Configure.
+. ./start-services.sh
 . ./configure-macos.sh
 . ./configure-shell.sh
-. ./setup-dotfiles.sh
