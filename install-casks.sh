@@ -7,16 +7,13 @@ echo '⚡️ Installing applications'
 brew install --cask \
   1password \
   alfred \
-  anki \
   appcleaner \
   basecamp \
   brave-browser \
   docker \
   dropbox \
   expressvpn \
-  figma \
   firefox \
-  google-chrome \
   gpg-suite-no-mail \
   hazel \
   iterm2 \
@@ -30,9 +27,7 @@ brew install --cask \
   slack \
   spotify \
   tableplus \
-  toggl-track \
-  visual-studio-code \
-  zoomus
+  visual-studio-code
 
 ## Tidy up
 brew cleanup -s
