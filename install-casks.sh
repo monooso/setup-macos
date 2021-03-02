@@ -10,6 +10,8 @@ brew install --cask \
   appcleaner \
   basecamp \
   brave-browser \
+  clockify \
+  discord \
   docker \
   dropbox \
   expressvpn \
@@ -20,6 +22,7 @@ brew install --cask \
   mochi \
   ngrok \
   notion \
+  phpstorm \
   postman \
   rectangle \
   signal \
