@@ -7,6 +7,7 @@ echo '⚡️ Installing command-line tools'
 brew install \
   antigen \
   asdf \
+  bat \
   composer \
   elixir \
   espanso \
