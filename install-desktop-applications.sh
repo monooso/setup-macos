@@ -3,8 +3,11 @@
 echo ''
 echo '⚡️ Installing desktop applications'
 
+## We cheat a little with espanso... it's sort-of a desktop app
+brew install espanso
+
 ## Install casks
-brew install --cask \
+brew install --cask --appdir=~/Applications \
   1password \
   alfred \
   appcleaner \
