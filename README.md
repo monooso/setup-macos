@@ -8,10 +8,16 @@ The scripts perform the following actions:
 
 1. Install package managers (apart from MacPorts).
 2. Install command-line tools, applications, and fonts.
-3. Set the current user's shell to ZSH.
-4. Set some sensible macOS defaults.
+3. Set some sensible macOS defaults.
 
 ## Usage ##
+Some of the scripts require `sudo` privileges. If you're logged-in as the default macOS admin user there's nothing else to do. In most cases, though, you should create a separate "Standard" user for your day-to-day activities, and grant that user admin privileges via the `sudoers` file. Here's how to do that.
+
+1. Log in as an admin user.
+2. Open a terminal, and run `sudo visudo /private/etc/sudoers`.
+3. Add `<username> ALL=(ALL) ALL` to the `sudoers` file.
+
+You can now log-in as the standard user, and run the setup scripts.
 
 ### Before running the script
 1. Ensure the operating system is up to date.
