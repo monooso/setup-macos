@@ -7,7 +7,7 @@ echo '⚡️ Installing desktop applications'
 brew install espanso
 
 ## Install casks
-brew install --cask --appdir=~/Applications \
+brew install --cask \
   1password \
   alfred \
   appcleaner \
