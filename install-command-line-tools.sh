@@ -3,8 +3,9 @@
 echo ''
 echo '⚡️ Installing command line tools'
 
-## Install basic command-line tools, and clean up afterwards
-sudo port install -c \
+## Install basic command-line tools
+## Do not prompt for confirmation (-N), and clean up afterwards (-c)
+sudo port -c -N install \
   bat \
   espanso \
   git \
