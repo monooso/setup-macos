@@ -7,7 +7,6 @@ echo '⚡️ Installing command line tools'
 ## Do not prompt for confirmation (-N), and clean up afterwards (-c)
 sudo port -c -N install \
   bat \
-  espanso \
   git \
   neovim \
   ripgrep \
